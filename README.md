@@ -1,4 +1,5 @@
-<img width="605" alt="github-screenshot" src="https://github.com/matttre3/Cloud-Chaser-m3/assets/140153086/e0308864-4de7-493a-9807-b483db24b83b">
+
+![screenshot](https://github.com/matttre3/Cloud-Chaser-m3/assets/140153086/c74aeaf0-89ff-4c9e-909b-33a0a30d6387)
 
 Project Description 🌦️
 
