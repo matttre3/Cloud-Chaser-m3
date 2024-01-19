@@ -1,10 +1,13 @@
+<img width="605" alt="github-screenshot" src="https://github.com/matttre3/Cloud-Chaser-m3/assets/140153086/e0308864-4de7-493a-9807-b483db24b83b">
+
 Project Description 🌦️
 
 Welcome to my React Current Weather App project! This marks my initial foray into the React framework, and I've crafted this small application to showcase current weather conditions using React, conditional rendering, Fetch API calls for weather data, and other fundamental React concepts.
 
 Project Highlights
 
-- Conditional Rendering:** Displaying components conditionally based on state or data obtained from API calls.
+- Conditional![Uploading github-screenshot.png…]()
+ Rendering:** Displaying components conditionally based on state or data obtained from API calls.
 
 - Fetch API for Weather Data: Utilizing `fetch` to retrieve real-time weather data from the OpenWeatherMap API.
 
