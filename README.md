@@ -6,9 +6,9 @@ Project Highlights
 
 - Conditional Rendering:** Displaying components conditionally based on state or data obtained from API calls.
 
-- Fetch API for Weather Data:** Utilizing `fetch` to retrieve real-time weather data from the OpenWeatherMap API.
+- Fetch API for Weather Data: Utilizing `fetch` to retrieve real-time weather data from the OpenWeatherMap API.
 
-- useState:** Managing application state using React's `useState` hook.
+- useState: Managing application state using React's `useState` hook.
 
 - Functional Components:** Employing functional components to organize and compartmentalize code cleanly and efficiently.
 
