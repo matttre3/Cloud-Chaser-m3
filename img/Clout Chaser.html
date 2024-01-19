@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./Clout Chaser_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="./Clout Chaser_files/meteo3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clout Chaser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Clout Chaser_files/css2" rel="stylesheet">
+  <style type="text/css" data-vite-dev-id="/Users/matteoromano/Documents/react-weather/react-weather/src/App.css">
+body {
+  
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  min-width: 400px;
+  max-width: 400px;
+  padding-bottom:100px;
+  margin-top: 70px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: -20px -20px 60px #bebebe,
+    20px 20px 60px #ffffff;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 0px;
+}
+
+input:hover {
+  border-color: #999;
+}
+
+input::placeholder{
+  opacity: 30%;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Urbanist", sans-serif;
+ 
+}
+
+button:hover {
+  background-color: darkgrey;
+}
+
+.headerImage{
+width: 50%;
+height: 50%;
+margin-bottom: -30px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+
+.author{
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.clouds:nth-child(1) {
+  width: 30%; 
+  position: relative;
+  animation: moveCloud 10s ease-in-out infinite alternate;
+  z-index: 1;
+  top: -120px;
+  left:230px
+}
+
+.clouds:nth-child(2){
+  width: 30%; 
+ top: 0px;
+ left: 0px;
+  position: relative;
+  animation: moveCloud 13s ease-in-out infinite alternate;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.cloud-open{
+  width: 30%; 
+  bottom: -430px;
+  right: 230px;
+  position: absolute;
+  animation: moveCloud 13s ease-in-out infinite alternate;
+  z-index: 1;
+  pointer-events: none;
+  
+}
+
+@keyframes moveCloud {
+  0%, 100% {
+    transform: translateY(4%);
+  }
+  50% {
+    transform: translateY(-4%);
+  }
+}
+
+
+
+</style><style type="text/css" data-vite-dev-id="/Users/matteoromano/Documents/react-weather/react-weather/src/assets/CurrentWeather.css">.img-info{
+  width: 80px;
+  height: 80px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.currentConditionsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  color: gray;
+}
+
+.description{
+margin-top: -10px;
+margin-bottom: 30px;
+font-size: 20px;
+}
+
+.cityName{
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+*{
+  color: #747474;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.p-desc{
+  font-size: 20px;
+}</style><style type="text/css" data-vite-dev-id="/Users/matteoromano/Documents/react-weather/react-weather/src/index.css">*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}</style></head>
+  <body>
+    <div id="root"><div class="container"><img class="clouds" src="./Clout Chaser_files/nuvola.png" alt=""><img class="clouds" src="./Clout Chaser_files/nuvola.png" alt=""><img class="headerImage" src="./Clout Chaser_files/meteo3.png" alt=""><h1>Cloud Chaser</h1><p class="author">By Matteo Romano</p><form><input type="text" placeholder="City Name"><button type="submit">Invia</button></form><div class="currentConditionsContainer"></div></div></div>
+    <script type="module" src="./Clout Chaser_files/main.jsx"></script>
+  
+
+<div id="fatkun-drop-panel">
+        <a id="fatkun-drop-panel-close-btn">×</a>
+            <div id="fatkun-drop-panel-inner">
+                <div class="fatkun-content">
+                    <svg class="fatkun-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5892"><path d="M494.933333 782.933333c2.133333 2.133333 4.266667 4.266667 8.533334 6.4h8.533333c6.4 0 10.666667-2.133333 14.933333-6.4l2.133334-2.133333 275.2-275.2c8.533333-8.533333 8.533333-21.333333 0-29.866667-8.533333-8.533333-21.333333-8.533333-29.866667 0L533.333333 716.8V128c0-12.8-8.533333-21.333333-21.333333-21.333333s-21.333333 8.533333-21.333333 21.333333v588.8L249.6 475.733333c-8.533333-8.533333-21.333333-8.533333-29.866667 0-8.533333 8.533333-8.533333 21.333333 0 29.866667l275.2 277.333333zM853.333333 874.666667H172.8c-12.8 0-21.333333 8.533333-21.333333 21.333333s8.533333 21.333333 21.333333 21.333333H853.333333c12.8 0 21.333333-8.533333 21.333334-21.333333s-10.666667-21.333333-21.333334-21.333333z" p-id="5893"></path></svg>
+                    <div class="fatkun-title">Drag and Drop</div>
+                    <div class="fatkun-desc">The image will be downloaded</div>
+                </div>
+            </div>
+    </div></body></html>

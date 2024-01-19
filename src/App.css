@@ -6,6 +6,7 @@ body {
 
 .container {
   display: flex;
+  position: relative;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
@@ -21,13 +22,14 @@ body {
     20px 20px 60px #ffffff;
 }
 
+
 input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
   outline: none;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 input:hover {
@@ -75,28 +77,37 @@ h1 {
 
 
 .clouds:nth-child(1) {
-  width: 30%; 
+  width: 90%; 
   position: absolute;
   animation: moveCloud 10s ease-in-out infinite alternate;
   z-index: 1;
-  top: -120px;
-  left:230px
+  bottom: 310px;
+  right:230px;
 }
 
 .clouds:nth-child(2){
-  width: 30%; 
-  bottom: -100px;
-  right: 230px;
+  width: 90%; 
+  top: 270px;
+  left: 230px;
   position: absolute;
   animation: moveCloud 13s ease-in-out infinite alternate;
   z-index: 1;
   pointer-events: none;
 }
 
-.cloud-open{
-  width: 30%; 
-  bottom: -430px;
-  right: 230px;
+.cloud-open:nth-child(1){
+  width: 90%; 
+  position: absolute;
+  animation: moveCloud 10s ease-in-out infinite alternate;
+  z-index: 1;
+  bottom: 610px;
+  right:230px;
+}
+
+.cloud-open:nth-child(2){
+  width: 90%; 
+  top: 600px;
+  left: 230px;
   position: absolute;
   animation: moveCloud 13s ease-in-out infinite alternate;
   z-index: 1;

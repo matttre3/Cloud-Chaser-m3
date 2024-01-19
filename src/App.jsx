@@ -38,12 +38,11 @@ function App() {
     console.log(weatherInfo)
   }
 
-
   return (
     <>
-      <img className='clouds' src="/img/nuvola.png" alt="" />
-      <img className={`${weatherInfo !== '' ? 'cloud-open' : 'clouds'}`} src="/img/nuvola.png" alt="" />
       <div className='container'>
+      <img className={`${weatherInfo !== '' ? 'cloud-open' : 'clouds'}`} src="/img/nuvola.png" alt="" />
+      <img className={`${weatherInfo !== '' ? 'cloud-open' : 'clouds'}`} src="/img/nuvola.png" alt="" />
         <img className="headerImage" src="/img/meteo3.png" alt="" />
         <h1>Cloud Chaser</h1>
         <p className='author'>By Matteo Romano</p>
